@@ -18,7 +18,13 @@ module.exports = function lineLength(str) {
     throw new TypeError(msg + ' (Argument must be a string)');
   }
 
-  return str.split(/\r?\n/).map(function(line) {
-    return line.length;
-  });
+  var lines = str.split(/\r?\n/);
+  var len = lines.length;
+  var result = new Array(len);
+
+  while (len--) {
+    result[len] = lines[len].length;
+  }
+
+  return result;
 };

@@ -15,12 +15,12 @@ function runTest(description, main) {
 
     t.throws(
       main.bind(null, ['foo']), /TypeError.*not a string/,
-      'should throw an error when it takes a non-string argument.'
+      'should throw a type error when it takes a non-string argument.'
     );
 
     t.throws(
       main.bind(null), /TypeError.*No arguments/,
-      'should throw an error when it takes no arguments.'
+      'should throw a type error when it takes no arguments.'
     );
   });
 }
