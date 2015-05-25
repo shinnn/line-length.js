@@ -2,23 +2,19 @@
   "name": "line-length",
   "version": "1.0.0",
   "description": "Get line length of a string",
-  "main": "./line-length-cjs.js",
+  "author": "Shinnosuke Watanabe (https://github.com/shinnn)",
+  "repository": "shinnn/line-length.js",
+  "license": "MIT",
+  "main": "line-length-cjs.js",
   "files": [
-    "line-length-cjs.js",
-    "LICENSE"
+    "line-length-cjs.js"
   ],
   "scripts": {
     "pretest": "eslint *.js & jscs *.js",
-    "test": "node test.js",
-    "coverage": "istanbul cover test.js",
+    "test": "node --harmony_arrow_functions test.js",
+    "coverage": "node --harmony_arrow_functions node_modules/.bin/istanbul cover test.js",
     "coveralls": "${npm_package_scripts_coverage} && istanbul-coveralls"
   },
-  "author": {
-    "name": "Shinnosuke Watanabe",
-    "url": "https://github.com/shinnn"
-  },
-  "repository": "shinnn/line-length.js",
-  "license": "MIT",
   "keywords": [
     "string",
     "line",
