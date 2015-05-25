@@ -1,9 +1,11 @@
 # line-length.js
 
+[![NPM version](https://img.shields.io/npm/v/line-length.svg)](https://www.npmjs.com/package/line-length)
+[![Bower version](https://img.shields.io/bower/v/line-length.svg)](https://github.com/shinnn/line-length.js/releases)
 [![Build Status](https://travis-ci.org/shinnn/line-length.js.svg?branch=master)](https://travis-ci.org/shinnn/line-length.js)
 [![Build status](https://ci.appveyor.com/api/projects/status/o06alyk0a5w16wc7?svg=true)](https://ci.appveyor.com/project/ShinnosukeWatanabe/line-length-js)
 [![Coverage Status](https://img.shields.io/coveralls/shinnn/line-length.js.svg)](https://coveralls.io/r/shinnn/line-length.js)
-[![devDependency Status](https://david-dm.org/shinnn/line-length.js/dev-status.svg)](https://david-dm.org/shinnn/line-length.js#info=devDependencies)
+[![devDependency Status](https://img.shields.io/david/dev/shinnn/line-length.js.svg)](https://david-dm.org/shinnn/line-length.js#info=devDependencies)
 
 Get line length of a string
 
@@ -15,22 +17,22 @@ lineLength('aaaaaaaa\naaaaaaaaaaaaaaaaaaaa\r\naaaaaa\n'); //=> [8, 20, 6, 0]
 
 ### Package managers
 
-#### [npm](https://www.npmjs.org/) [![NPM version](https://badge.fury.io/js/line-length.svg)](https://www.npmjs.org/package/line-length)
+#### [npm](https://www.npmjs.com/)
 
-```sh
+```
 npm install line-length
 ```
 
-#### [Bower](http://bower.io/) [![Bower version](https://badge.fury.io/bo/line-length.svg)](https://github.com/shinnn/line-length.js/releases)
+#### [Bower](http://bower.io/)
 
-```sh
+```
 bower install line-length
 ```
 
 #### [Duo](http://duojs.org/)
 
 ```javascript
-var lineLength = require('shinnn/line-length.js');
+const lineLength = require('shinnn/line-length.js');
 ```
 
 ### Standalone
@@ -54,6 +56,6 @@ lineLength(''); //=> [0]
 
 ## License
 
-Copyright (c) 2014 [Shinnosuke Watanabe](https://github.com/shinnn)
+Copyright (c) 2014 - 2015 [Shinnosuke Watanabe](https://github.com/shinnn)
 
 Licensed under [the MIT License](./LICENSE).
