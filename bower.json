@@ -7,7 +7,7 @@
     "length",
     "number"
   ],
-  "main": "./line-length.js",
+  "main": "line-length.js",
   "homepage": "https://github.com/shinnn/line-length.js",
   "repository": {
     "type": "git",
@@ -22,12 +22,10 @@
   "license": "MIT",
   "ignore": [
     "**/.*",
+    "*.js",
+    "*.json",
     "*.yml",
     "coverage",
-    "node_modules",
-    "line-length-cjs.js",
-    "test.js",
-    "package.json",
-    "component.json"
+    "node_modules"
   ]
 }
