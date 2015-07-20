@@ -8,16 +8,14 @@
     "number"
   ],
   "main": "line-length.js",
+  "moduleType": "globals",
   "homepage": "https://github.com/shinnn/line-length.js",
   "repository": {
     "type": "git",
     "url": "git://github.com/shinnn/line-length.js.git"
   },
   "authors": [
-    {
-      "name": "Shinnosuke Watanabe",
-      "url": "https://github.com/shinnn"
-    }
+    "Shinnosuke Watanabe (https://github.com/shinnn)"
   ],
   "license": "MIT",
   "ignore": [
